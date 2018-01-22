@@ -1,0 +1,101 @@
+﻿/* Your custom styles */
+
+
+
+
+
+.footer-Anoop{overflow:hidden;height:50px;line-height:50px;color:rgba(255,255,255,.6);background-color:rgba(0,0,0,.2);text-align:right;font-size:.9rem}footer.page-footer a{color:#fff}footer.page-footer
+
+/* table */
+.input-group.md-form.form-sm.form-2 input {
+    border: 1px solid #bdbdbd;
+    border-top-left-radius: 0.25rem;
+    border-bottom-left-radius: 0.25rem;
+}
+.input-group.md-form.form-sm.form-2 input.grey-border  {
+    border: 1px solid #e9ecef;
+}
+.input-group input[type=text]:focus:not([readonly]) {
+    box-shadow: none;
+}
+.form-2 .input-group-addon {
+    border: 1px solid #e9ecef;
+}
+
+/*  other */
+.sticky-container{
+    padding:0px;
+    margin:0px;
+    position:fixed;
+    right:-130px;
+    top:230px;
+    width:210px;
+    z-index: 1100;
+}
+.sticky li{
+    list-style-type:none;
+    background-color:#00fff;
+    color:#efefef;
+    height:43px;
+    padding:0px;
+    margin:0px 0px 1px 0px;
+    -webkit-transition:all 0.25s ease-in-out;
+    -moz-transition:all 0.25s ease-in-out;
+    -o-transition:all 0.25s ease-in-out;
+    transition:all 0.25s ease-in-out;
+    cursor:pointer;
+}
+.sticky li:hover{
+    margin-left:-115px;
+}
+.sticky li img{
+    float:left;
+    margin:5px 4px;
+    margin-right:5px;
+}
+.sticky li p{
+    padding-top:5px;
+    margin:0px;
+    line-height:16px;
+    font-size:11px;
+}
+.sticky li p a{
+    text-decoration:none;
+    color:#2C3539;
+}
+.sticky li p a:hover{
+    text-decoration:underline;
+}
+/* Social Icons */
+#social_side_links {
+	position: fixed;
+  top: 220px;
+  right: 0;
+  padding: 0;
+  list-style: none;
+  z-index: 99;
+}
+
+#social_side_links li a {display: block;}
+
+#social_side_links li a img {
+	display: block;
+	max-width:40px;
+  padding: 10px;
+  -webkit-transition:  background .2s ease-in-out;
+  -moz-transition:  background .2s ease-in-out;
+  -o-transition:  background .2s ease-in-out;
+  transition:  background .2s ease-in-out;
+}
+
+#social_side_links li a:hover img {background: rgba(0, 0, 0, .2);}
+
+
+
+.btn-round {
+    border-radius: 30px;
+}
+
+
+
+
